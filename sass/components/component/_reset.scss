@@ -1,0 +1,38 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', 'Oleo Script', 'sans-serif';
+    background: var(--primary-bg-white-color);
+    color: var(--primary-text-color);
+        @include fonts (null, 14px, 1.71, 0.03em);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

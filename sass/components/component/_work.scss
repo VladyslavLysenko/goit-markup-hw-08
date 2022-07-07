@@ -1,0 +1,38 @@
+.work__list {
+    text-align: center;
+    display: flex;
+}
+
+
+.work__item {
+    flex-basis: calc((100% - 90px)/3);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+
+    }
+
+}
+
+
+
+.work__wrap {
+    position: relative;
+
+}
+
+.work__title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    color: var(--text-wh-color);
+    background: rgba(47, 48, 58, 0.8);
+    @include fonts (700, null, 1.14, 0.03em);
+
+
+}
