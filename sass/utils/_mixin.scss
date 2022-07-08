@@ -12,3 +12,9 @@
     align-items: $cross-axis;
 }
 
+@mixin flexWrap($type: flex, $wrap: wrap, $gap: 30px) {
+    display: $type;
+    flex-wrap:$wrap;
+    gap: $gap;
+}
+

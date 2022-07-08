@@ -1,6 +1,5 @@
 .feature__list {
-    gap: 30px;
-    @include flexCenter($type: flex, $main-axis: center, $cross-axis: null);
+    @include flexWrap($type: flex, $wrap: wrap, $gap: 30px)
 
 }
 
@@ -16,12 +15,30 @@
 
  .feature__title {
      text-transform: uppercase;
+     text-align: center;
      color: var(--title-text-color);
      margin-bottom: 10px;
-    @include fonts (700, 14px, 1.14, 0.03em);
+     @include fonts (700, 14px, 1.14, 0.03em);
+
+     @media screen and (min-width: 768px) {
+         text-align: left;
+     }
+
+     @media screen and (min-width: 1200px) {
+         text-align: left;
+     }
  }
-
    .feature__item {
-       flex-basis: calc((100% - 90px)/4);
 
-   }
+    width:100%; 
+
+        @media screen and (min-width: 768px) {
+                width: calc((100% - 30px)/2)
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: calc((100% - 90px)/4)
+            }
+        }
+
+   
