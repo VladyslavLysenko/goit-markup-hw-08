@@ -56,6 +56,9 @@
     margin-right: 30px;}
 }
 
+.contact__item--center{
+    text-align: center;
+}
 
 .contact__item--margin {
     margin-top: 20px;
@@ -63,13 +66,14 @@
 }
 
 
-.contact.list {
+
+
+.contact__list--none{
     display: none;
 
-    @include tablet{
-        display: flex;
-margin-left: auto;
-      
-    }
-
+    @include tablet {
+            display: flex;
+            margin-left: auto;
+    
+        }
 }

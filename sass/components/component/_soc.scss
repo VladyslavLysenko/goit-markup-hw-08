@@ -6,6 +6,10 @@
     @include fonts (700, 14px, 1.14, null);
 }
 
+.soc__title--footer{
+    text-align: center;
+}
+
 .soc__list.list {
     display: flex;
     justify-content: center;
