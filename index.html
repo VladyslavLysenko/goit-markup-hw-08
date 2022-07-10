@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- <header class="header">
+    <header class="header">
         <div class="container">
 
 
@@ -50,10 +50,67 @@
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a></li>
             </ul>
+
+                <button type="button" class="menu-open__btn" >
+                    <svg class="icon-menu" width="24" height="16">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+        </div>
+
+        <div class="mob__menu is-hidden">
+            <div class="container">
+                <div class="mob__top">
+        <button type="button" class="close-menu__btn">
+            <svg class="icon-menu" width="24" height="16">
+                <use href="./images/icons.svg#icon-Vector-1"></use>
+            </svg></button>
+
+            <ul class="mob-nav__list list">
+                <li class="mob-nav__item"><a href="" class="mob-nav__link mob-nav__link--current">Студия</a>
+                    <div class="mob-nav__line"></div>
+                </li>
+                <li class="mob-nav__item"><a href="./portfolio.html" class="mob-nav__link ">Портфолио</a>
+                    <div class="mob-nav__line"></div>
+                </li>
+                <li class="mob-nav__item"><a href="" class="mob-nav__link">Контакты</a>
+                    <div class="mob-nav__line"></div>
+                </li>
+            
+            </ul>
+            </div>
+
+            <div class="mob__bottom">
+
+            <ul class="mob-contact list">
+                <li class="mob-contact_item"><a href="tel:+380961111111" class="mob-contact__link mob-contact__link--style-phone">+38 096 111 11 11</a></li>
+                <li class="mob-contact__item"><a href="mailto:info@devstudio.com" class="mob-contact__link">info@devstudio.com</a></li>
+              
+            </ul>
+
+
+            <ul class="mob-soc__list list">
+                <li class="mob-soc__item">
+                    <a href="" class="mob-soc__link">
+                        Instagram</a>
+                </li>
+                <li class="mob-soc__item">
+                    <a href="" class="mob-soc__link">Twitter</a>
+                </li>
+                <li class="mob-soc__item">
+                    <a href="" class="mob-soc__link">Facebook</a>
+                </li>
+                <li class="mob-soc__item">
+                    <a href="" class="mob-soc__link">
+                        LinkedIn</a>
+                </li>
+            </ul>
+            </div>
+
+</div>
         </div>
 
     </header>
-    <div class="container"></div> -->
+    <div class="container"></div>
     <main>
 
         <section class="hero">
@@ -608,7 +665,9 @@
             </button>
         </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
+   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

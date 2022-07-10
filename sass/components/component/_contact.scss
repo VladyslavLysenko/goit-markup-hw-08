@@ -1,5 +1,9 @@
 .contact{
     display: flex;
+    @include mobile {
+        flex-wrap: nowrap;
+    }
+    
 
     &--fonts {
     
@@ -47,4 +51,17 @@
 .contact__item--margin {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+
+.contact.list {
+    display: none;
+
+    @include tablet{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      
+    }
+
 }

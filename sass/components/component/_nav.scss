@@ -1,7 +1,9 @@
 .nav {
     display: flex;
     align-items: center;
-    margin-right: 250px;
+    @include mobile {
+        display: none;
+    }
 
 
     &__link {
@@ -40,5 +42,13 @@
 
 .nav__link--current {
     color: var(--primary-bg-color);
+
+}
+
+.nav.list {
+   display: none;
+ @include tablet {
+    display: flex;
+ }
 
 }
