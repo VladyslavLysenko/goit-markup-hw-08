@@ -1,9 +1,16 @@
 .contact{
     display: flex;
-    @include mobile {
-        flex-wrap: nowrap;
-    }
-    
+
+
+
+                   @include tablet {
+                     flex-direction: column;
+                   }
+
+                                   @include desktop {
+                                       flex-direction: row;
+                                   }
+
 
     &--fonts {
     
@@ -43,7 +50,7 @@
 }
 
 
-.contact.list .contact__item:not(:last-child) {
+.contact.list .contact__item {
     margin-right: 30px;
 }
 
@@ -59,8 +66,7 @@
 
     @include tablet{
         display: flex;
-        justify-content: center;
-        align-content: center;
+margin-left: auto;
       
     }
 

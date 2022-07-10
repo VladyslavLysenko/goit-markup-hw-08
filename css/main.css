@@ -480,9 +480,14 @@ a {
 .contact {
   display: flex;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .contact {
-    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    flex-direction: row;
   }
 }
 .contact--fonts {
@@ -514,7 +519,7 @@ a {
   fill: currentColor;
 }
 
-.contact.list .contact__item:not(:last-child) {
+.contact.list .contact__item {
   margin-right: 30px;
 }
 
@@ -529,8 +534,7 @@ a {
 @media screen and (min-width: 768px) {
   .contact.list {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-left: auto;
   }
 }
 
