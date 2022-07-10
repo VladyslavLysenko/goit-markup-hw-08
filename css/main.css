@@ -519,8 +519,10 @@ a {
   fill: currentColor;
 }
 
-.contact.list .contact__item {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .contact.list .contact__item {
+    margin-right: 30px;
+  }
 }
 
 .contact__item--margin {

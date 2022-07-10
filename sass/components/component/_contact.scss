@@ -51,7 +51,9 @@
 
 
 .contact.list .contact__item {
-    margin-right: 30px;
+
+    @include desktop{
+    margin-right: 30px;}
 }
 
 
