@@ -65,7 +65,7 @@
 
     @include tablet {
         display: flex;
-        margin-left: auto;
+   justify-content: space-between;
 
     }
 }
