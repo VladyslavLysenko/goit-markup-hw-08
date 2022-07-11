@@ -124,10 +124,15 @@
     margin-bottom: 30px;
     display: flex;
     align-items: center;
-    @include fonts (400, 11px, 1.16, 0.03em);
+    @include fonts (400, 9px, 1.16, 0.03em);
+
+    
+    @include tablet {
+            @include fonts (400, 11px, 1.16, 0.03em);
+        }
 
     @include desktop{
-    @include fonts (400, 14px, 1.71, 0.03em);
+        @include fonts (400, 14px, 1.71, 0.03em);
     }
 
     span {

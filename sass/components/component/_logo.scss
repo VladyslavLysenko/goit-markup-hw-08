@@ -17,7 +17,7 @@
 .logo__wrap{
   padding-left: 90px;
    margin: 0 auto;
-@include desktop{
+@include tablet{
     padding-left: 0;
 }
 }
