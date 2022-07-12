@@ -563,7 +563,7 @@ a {
 
 @media screen and (min-width: 1200px) {
   .contact__item--margin-right {
-    margin-right: 10px;
+    margin-right: 30px;
   }
 }
 
@@ -755,7 +755,6 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-bg-white-color);
-  max-width: 696px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -777,6 +776,7 @@ a {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 696px;
   }
 }
 
