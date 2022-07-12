@@ -13,10 +13,8 @@
                 }
 }
 
-
-.logo__wrap{
-    @media screen and (max-width: 480px) {
-          margin: 0 auto;
-        }
+.logo__wrap {
+    @include desktop {
+        margin-bottom: 20px;
+    }
 }
-

@@ -40,13 +40,11 @@
 }
 
 
-.contact.list .contact__item {
-
-
-    
-
+.contact__item--margin-right{
+    @include desktop{
+        margin-right: 10px;
+    }
 }
-
 
 
 
