@@ -337,17 +337,15 @@ a {
 @media screen and (min-width: 320px) {
   .header > .container {
     padding-top: 16px;
+    padding-bottom: 16px;
     padding-right: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .header > .container {
     padding-right: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header > .container {
-    padding-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -647,6 +645,11 @@ a {
 
 .soc__title--footer {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .soc__title--footer {
+    text-align: left;
+  }
 }
 
 .soc__list.list {
@@ -1168,17 +1171,9 @@ a {
   display: flex;
   align-items: center;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-}
-@media screen and (min-width: 768px) {
-  .modal__check-text {
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-  }
 }
 @media screen and (min-width: 1200px) {
   .modal__check-text {
