@@ -48,7 +48,10 @@
 }
 
 .contact__item:not(:last-child){
-    margin-right: 30px;  
+    @include desktop{
+margin-right: 30px;
+    }
+ 
 }
 
 

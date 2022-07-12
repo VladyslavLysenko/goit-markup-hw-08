@@ -9,13 +9,10 @@
 
         @include mobile {
             padding-top: 16px;
-            padding-bottom: 16px;
             padding-right: 20px;
         }
 
                   @include tablet  {
-                      padding-top: 16px;
-                      padding-bottom: 16px;
                       padding-right: 15px;
                   }
     }
@@ -143,6 +140,7 @@
 .mob-soc__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
  
 }
 

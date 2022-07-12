@@ -266,7 +266,7 @@ a {
 }
 .section__title {
   color: var(--title-text-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   font-weight: 700;
   font-size: 28px;
@@ -277,6 +277,7 @@ a {
   .section__title {
     font-size: 36px;
     line-height: 1.17;
+    margin-bottom: 50px;
   }
 }
 
@@ -316,14 +317,11 @@ a {
 @media screen and (min-width: 320px) {
   .header > .container {
     padding-top: 16px;
-    padding-bottom: 16px;
     padding-right: 20px;
   }
 }
 @media screen and (min-width: 768px) {
   .header > .container {
-    padding-top: 16px;
-    padding-bottom: 16px;
     padding-right: 15px;
   }
 }
@@ -433,6 +431,7 @@ a {
 .mob-soc__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .mob-soc__item {
@@ -539,8 +538,10 @@ a {
   fill: currentColor;
 }
 
-.contact__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .contact__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .contact__item--margin {
@@ -667,8 +668,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
   max-width: 1600px;
   margin: 0 auto;
@@ -691,6 +692,8 @@ a {
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-des-min.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
