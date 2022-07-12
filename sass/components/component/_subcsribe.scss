@@ -79,5 +79,8 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  @include desktop {
+    text-align:left;
+  }
 
         }

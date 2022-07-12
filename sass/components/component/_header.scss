@@ -1,24 +1,26 @@
 .header {
     border-bottom: 1px solid #ECECEC;
 
- > .container {
+    >.container {
         display: flex;
         align-items: center;
         justify-content: space-between;
- 
+
 
         @include mobile {
             padding-top: 16px;
             padding-right: 20px;
         }
 
-                  @include tablet  {
-                      padding-right: 15px;
-                  }
+        @include tablet {
+            padding-right: 15px;
+        }
+
+        @include desktop {
+            padding-top: 0px;
+        }
     }
 }
-
-
 
     
   

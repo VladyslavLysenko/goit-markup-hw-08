@@ -65,4 +65,8 @@
 
 .soc__list--margin-bottom{
     margin-bottom: 60px;
+
+    @include desktop {
+        margin-bottom: 0;
+    }
 }

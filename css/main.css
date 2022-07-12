@@ -89,6 +89,10 @@
   }
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 p,
 h1,
 h2,
@@ -136,9 +140,20 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 }
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -259,6 +274,11 @@ a {
     padding-right: 15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscribe__wrap {
+    text-align: left;
+  }
+}
 
 .section {
   padding-left: 0;
@@ -323,6 +343,11 @@ a {
 @media screen and (min-width: 768px) {
   .header > .container {
     padding-right: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header > .container {
+    padding-top: 0px;
   }
 }
 
@@ -538,15 +563,15 @@ a {
   fill: currentColor;
 }
 
-@media screen and (min-width: 1200px) {
-  .contact__item:not(:last-child) {
-    margin-right: 30px;
-  }
-}
-
 .contact__item--margin {
   margin-top: 20px;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .contact__item--margin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .contact__list--none {
@@ -568,6 +593,11 @@ a {
 @media screen and (min-width: 768px) {
   .contact--flex {
     align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact--flex {
+    margin-bottom: 0;
   }
 }
 
@@ -661,6 +691,11 @@ a {
 
 .soc__list--margin-bottom {
   margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .soc__list--margin-bottom {
+    margin-bottom: 0;
+  }
 }
 
 .hero {

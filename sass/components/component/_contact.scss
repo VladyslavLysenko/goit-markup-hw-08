@@ -47,17 +47,17 @@
 
 }
 
-.contact__item:not(:last-child){
-    @include desktop{
-margin-right: 30px;
-    }
- 
-}
+
 
 
 .contact__item--margin {
     margin-top: 20px;
     margin-bottom: 10px;
+    
+    @include desktop{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 
@@ -85,6 +85,9 @@ margin-right: 30px;
             align-items: flex-start;
     }
 
+           @include desktop {
+            margin-bottom: 0;
+           }
    
 }
 
