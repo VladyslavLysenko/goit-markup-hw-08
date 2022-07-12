@@ -569,12 +569,12 @@ a {
 
 .contact__item--margin {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 @media screen and (min-width: 1200px) {
   .contact__item--margin {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 9px;
   }
 }
 
@@ -673,6 +673,7 @@ a {
 
 .soc__item--color-grey {
   background: rgba(255, 255, 255, 0.1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc__link {
