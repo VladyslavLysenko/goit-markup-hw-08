@@ -578,6 +578,16 @@ a {
   }
 }
 
+.contact__item--center {
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .contact__item--center {
+    margin-top: 0px;
+    margin-bottom: 9px;
+  }
+}
+
 .contact__list--none {
   display: none;
 }

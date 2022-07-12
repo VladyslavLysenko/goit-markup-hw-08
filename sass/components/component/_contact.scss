@@ -58,7 +58,14 @@
     }
 }
 
-
+.contact__item--center{
+    margin-bottom: 8px;
+    
+        @include desktop {
+            margin-top: 0px;
+            margin-bottom: 9px;
+        }
+}
 
 
 .contact__list--none {
